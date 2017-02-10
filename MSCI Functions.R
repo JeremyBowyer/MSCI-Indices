@@ -45,7 +45,7 @@ msci.download <- function(countries,
 					priceLevel,
 					"&currency=",
 					currency,
-					"&frequency=M&scope=R&format=XLS&baseValue=",
+					"&frequency=D&scope=R&format=XLS&baseValue=",
 					baseValue,
 					"&site=gimi")
 	
