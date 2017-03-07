@@ -3,6 +3,9 @@
 ###### MSCI FUNCTIONS #######
 #############################
 
+# These scripts will download data from MSCI's end of day history app, found here:
+# https://www.msci.com/end-of-day-history?chart=country&priceLevel=41&scope=R&style=B&currency=15&size=36&indexId=119152
+
 # Download data
 msci.download <- function(countries,
 						  startDate = "1969-12-29",
