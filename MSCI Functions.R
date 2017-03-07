@@ -8,14 +8,14 @@
 
 # Download data
 msci.download <- function(countries,
-						  startDate = "1969-12-29",
-						  endDate = Sys.Date(),
-						  priceLevel = "41",
-						  currency = "15",
-						  baseValue = "true",
-						  annual = FALSE,
-						  change = FALSE,
-						  rank = FALSE) {
+			  startDate = "1969-12-29",
+			  endDate = Sys.Date(),
+			  priceLevel = "41",
+			  currency = "15",
+			  baseValue = "true",
+			  annual = FALSE,
+			  change = FALSE,
+			  rank = FALSE) {
 	# Setup
 	require(quantmod)
 	options(stringsAsFactors = FALSE)
@@ -275,6 +275,8 @@ msci.list <- function() {
 			"United States",
 			"United States",
 			"United States",
+			"United States",
+		     	"United States",
 			"United States")
 	
 	
@@ -432,7 +434,9 @@ msci.list <- function() {
 			"USA.LARGE.GROWTH.Large.Cap.Growth",
 			"USA.LARGE.VALUE.Large.Cap.Value",
 			"USA.SMALL.GROWTH.Small.Cap.Growth",
-			"USA.SMALL.VALUE.Small.Cap.Value")
+			"USA.SMALL.VALUE.Small.Cap.Value",
+		     	"USA.SMID.GROWTH.SMID..Small.Mid.Cap..Growth",
+		     	"USA.SMID.VALUE.SMID..Small.Mid.Cap..Value")
 	
 	Country.Code <- c("AU_A",
 			"AT_A",
@@ -588,7 +592,9 @@ msci.list <- function() {
 			"US_L_G",
 			"US_L_V",
 			"US_S_G",
-			"US_S_V")
+			"US_S_V",
+			"US_SM_G",
+			"US_SM_V")
 	
 	Download.Code <- c("60,C,30",
 			"61,C,30",
@@ -744,7 +750,9 @@ msci.list <- function() {
 			"59608,G,31",
 			"59503,V,31",
 			"64596,G,33",
-			"64491,V,33")
+			"64491,V,33",
+			"71238,G,34",
+			"71133,V,34")
 	
 	codeDF <- data.frame(Country = Country,
 			Col.Name = Col.Name,
