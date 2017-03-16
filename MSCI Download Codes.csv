@@ -165,3 +165,7 @@ Emerging,EM.MINIMUM.VOLATILITY..USD..Standard..Large.Mid.Cap..Minimum.Volatility
 Developed,WORLD.MOMENTUM.Standard..Large.Mid.Cap..Momentum,__DM_M,"103214,1,36"
 Developed,WORLD.QUALITY.Standard..Large.Mid.Cap..Quality,__DM_Q,"100106,U,36"
 Developed,WORLD.MINIMUM.VOLATILITY..USD..Standard..Large.Mid.Cap..Minimum.Volatility,__DM_MV,"90349,M,36"
+United States,USA.SMID.CAP.SMID..Small.Mid.Cap..,US_SM,"71028,C,34"
+Emerging,EM..EMERGING.MARKETS..SMID.CAP.SMID..Small.Mid.Cap..,__EM_SM,"71061,C,34"
+Developed,WORLD.SMID.CAP.SMID..Small.Mid.Cap..,__DM_SM,"71026,C,34"
+
