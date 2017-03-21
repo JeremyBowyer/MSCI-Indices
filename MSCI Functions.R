@@ -18,6 +18,7 @@ msci.download <- function(countries,
 			  rank = FALSE) {
 	# Setup
 	require(quantmod)
+	require(XLConnect)
 	options(stringsAsFactors = FALSE)
 	
 	
