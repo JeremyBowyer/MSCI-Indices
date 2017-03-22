@@ -169,6 +169,6 @@ United States,USA.SMID.CAP.SMID..Small.Mid.Cap..,US_SM,"71028,C,34"
 Emerging,EM..EMERGING.MARKETS..SMID.CAP.SMID..Small.Mid.Cap..,__EM_SM,"71061,C,34"
 Developed,WORLD.SMID.CAP.SMID..Small.Mid.Cap..,__DM_SM,"71026,C,34"
 Americas,AC.AMERICAS.Standard..Large.Mid.Cap..,__AM_A,"2670,C,36"
-Asia-Pacific,AC.ASIA.PACIFIC.Standard..Large.Mid.Cap..,"2706,C,36"
-Europe,AC.EUROPE.Standard..Large.Mid.Cap..,"1124,C,36"
+Asia-Pacific,AC.ASIA.PACIFIC.Standard..Large.Mid.Cap..,__AP_A,"2706,C,36"
+Europe,AC.EUROPE.Standard..Large.Mid.Cap..,__EU_A,"1124,C,36"
 
